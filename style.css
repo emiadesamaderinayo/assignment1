@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height:100%;
+  background: linear-gradient(to right, rgb(114, 188, 223), rgb(224, 100, 255));
+}
+.container {
+  background-color: #fff;
+  margin: 157px auto;
+  width: 250px;
+  padding: 25px;
+  border-radius: 8px;
+}
+ h1 {
+  text-align: center;
+  margin-bottom: 40px;
+  /* padding-top: 35px; */
+}
+form label{
+  text-align: left;
+}
+
+input{
+  width:100% ;
+padding: 8px;
+border: none;
+border-bottom: 1px solid gray;
+margin: 5px 0px;
+}
+
+form h5{
+  text-align: right;
+}
+
+ .button{
+  /* background: linear-gradient (to right red, green ); */
+  background: linear-gradient( red,blue);
+  padding: 8px;
+  width: 100%;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  margin: 10px 0px;
+  border-radius: 22px;
+}
+.social-links h5{
+text-align: center;
+margin-top: 30px;
+
+
+}
+.img{
+  display: flex;
+  gap: 1rem;
+  margin-top: 45px;
+  margin-left: 45px;
+}
+img{
+  width: 25px;
+  height: 25px;
+}
+
